@@ -1,0 +1,2 @@
+# Limiter configuration for NEXORA
+# Left minimal since rate limiting is handled at the network level
