@@ -23,57 +23,10 @@ search:
     - json
 
 outgoing:
-  request_timeout: 5.0
+  request_timeout: 6.0
   max_request_timeout: 10.0
 
 engines:
-  - name: bing
-    engine: bing
-    shortcut: bi
-    disabled: false
-
-  - name: google
-    engine: google
-    shortcut: go
-    disabled: false
-
-  - name: qwant
-    engine: qwant
-    shortcut: qw
-    disabled: false
-
-  - name: duckduckgo
-    engine: duckduckgo
-    shortcut: ddg
-    timeout: 6.0
-    disabled: false
-
-  - name: wikipedia
-    engine: wikipedia
-    shortcut: wp
-    disabled: false
-
-  - name: wikidata
-    engine: wikidata
-    shortcut: wd
-    disabled: false
-
-  - name: github
-    engine: github
-    shortcut: gh
-    disabled: false
-
-  - name: stackexchange
-    engine: stackexchange
-    shortcut: se
-    disabled: false
-
-  - name: youtube
-    engine: youtube_noapi
-    shortcut: yt
-    disabled: false
-
-  # Disable problematic engines on cloud datacenter IPs
   - name: brave
     disabled: true
 
